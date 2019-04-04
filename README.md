@@ -11,7 +11,7 @@
   </ul>
   
   ## UPDATES 
-  <ul>
-  <li><input disabled = "" type="checkbox"> more specific search answer </li>
-  <li><input disabled = "" type="checkbox"> Menu update </li>
-  </ul>
+<ul>
+<li><input disabled="" type="checkbox"> more specific search answer</li>
+<li><input checked="" disabled="" type="checkbox"> New Menu </li>
+</ul>
