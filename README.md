@@ -9,9 +9,3 @@
   <li> TYPE WHAT ARE YOU LOOKING FOR </li>
   <li> PRESS THE SEARCH BUTTON </li>
   </ul>
-  
-  ## UPDATES 
-<ul>
-<li><input disabled="" type="checkbox"> more specific search answer</li>
-<li><input checked="" disabled="" type="checkbox"> New Menu </li>
-</ul>
