@@ -34,7 +34,6 @@ class CSV_VALUE_FINDER():
             msg.showinfo("FOUND","THE VALUE EXISTS")
             self.textfind.configure(state="normal")
             self.popupcolmenu.configure(state="normal")
-            self.serb.configure(state="disable")
         else:
             msg.showinfo("NOT FOUND","THE VALUE DOES NOT EXISTS")
             self.textfind.configure(state="normal")
