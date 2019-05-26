@@ -1,7 +1,9 @@
 from tkinter import *
 from tkinter import messagebox as msg
-import pandas as pd
 from tkinter import filedialog
+
+import pandas as pd
+
 class CSV_VALUE_FINDER():
     def __init__(self,master):
         self.master = master
