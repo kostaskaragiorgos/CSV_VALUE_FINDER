@@ -73,7 +73,7 @@ class CSV_VALUE_FINDER():
     
     def inscsv(self):
         self.filename = filedialog.askopenfilename(initialdir="/",title="Select csv file",filetypes=(("csv files","*.csv"),("all files","*.*")))
-        if ".csv" in self.filename:
+        if self.filename.endswith('.csv'):
             msg.showinfo("SUCCESS","THE CSV FILE LOADED SUCCESSFULLY")
             self.pandascheck = pd.read_csv(self.filename)
             colmlist = list(self.pandascheck.columns)
